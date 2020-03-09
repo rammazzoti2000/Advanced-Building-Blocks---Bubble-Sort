@@ -50,15 +50,16 @@ Advanced-Building-Blocks---Bubble-Sort"><strong>Explore the docs »</strong></a>
 * [Live Version](#live-version)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
+* [License](#license)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://repl.it/@MariaEugeniaEu2/HoneydewYellowgreenExecutables)
+[![Product Name Screen Shot][product-screenshot]](https://repl.it/@AlexandruBangau/bubblesort)
 
 This is the first project of the Microverse Ruby Module
 
-This is also the Assignment 1 of the Odin project curriculum https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks
+This is also the Assignment_1 of the [Odin project curriculum](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
 
 <!-- ABOUT THE PROJECT -->
 ## Installation
