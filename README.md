@@ -88,15 +88,13 @@ This project was built using these technologies.
 You can see it working [here](https://repl.it/@AlexandruBangau/bubblesort)
 
 <!-- CONTACT -->
-## Contributers
+## Contributors
 
 👤 **Jaspreet Singh** 
     
 - LinkedIn: [Jaspreet Singh](https://www.linkedin.com/in/jaspreet-singh-a28286146/) - 
 - GitHub: [@jaspreet-singh-sahota](https://github.com/jaspreet-singh-sahota)
 - E-mail: jaspreetsinghjassi01@gmail.com
-<br />
-<br />
 
 👤 **Alexandru Bangau**
 
@@ -104,7 +102,6 @@ You can see it working [here](https://repl.it/@AlexandruBangau/bubblesort)
 - GitHub: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - E-mail: bangau.alexandru@gmail.com
 
-Project Link: [https://github.com/rammazzoti2000/Advanced-Building-Blocks---Bubble-Sort)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -122,4 +119,8 @@ Project Link: [https://github.com/rammazzoti2000/Advanced-Building-Blocks---Bubb
 [stars-url]: https://github.com/rammazzoti2000/Advanced-Building-Blocks---Bubble-Sort/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/Advanced-Building-Blocks---Bubble-Sort.svg?style=flat-square
 [issues-url]: https://github.com/rammazzoti2000/Advanced-Building-Blocks---Bubble-Sort/issues
-[product-screenshot]: images/bubble_sort.PNG
+[product-screenshot]: images/bubble_sort.png
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
