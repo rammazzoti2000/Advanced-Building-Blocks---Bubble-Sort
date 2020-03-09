@@ -30,7 +30,7 @@ def bubble_sort_by(array)
   array
 end
 
-bubble = bubble_sort_by(['i', 'a', 'e', 'four', 'five', 'hey', 'hello', 'hi']) do |left, right|
+bubble = bubble_sort_by(%w[i w y hello hi hey a x]) do |left, right|
   left > right
 end
 
