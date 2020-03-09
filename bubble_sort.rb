@@ -21,7 +21,7 @@ def bubble_sort_by(array)
   until swap
     swap = true
     (0...array.length - 1).each.with_index do |_, idx|
-      if yield(array[idx], array[idx + 1])
+      if yield(array[idx], array[idx + 1]).positive?
         array[idx], array[idx + 1] = array[idx + 1], array[idx]
         swap = false
       end
@@ -30,8 +30,8 @@ def bubble_sort_by(array)
   array
 end
 
-bubble = bubble_sort_by(%w[i w y hello hi hey a x]) do |left, right|
-  left > right
+bubble = bubble_sort_by(%w[hi hello hey]) do |left, right|
+  left.length - right.length
 end
 
 p bubble_sort([1, 3, 42, 54, 21, 221, 31, 2, 0])
