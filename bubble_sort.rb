@@ -3,7 +3,7 @@ require 'rubocop'
 def bubble_sort(array)
   swap = false
 
-  while !swap 
+  until swap
     swap = true
     (0...array.length - 1).each.with_index do |_, idx|
       if array[idx] > array[idx + 1]
@@ -18,7 +18,7 @@ end
 def bubble_sort_by(array)
   swap = false
 
-  while !swap
+  until swap
     swap = true
     (0...array.length - 1).each.with_index do |_, idx|
       if yield(array[idx], array[idx + 1])
