@@ -67,7 +67,7 @@ This is also the Assignment_1 of the [Odin project curriculum](https://www.theod
 To test the code you need to write this at the end and execute it with [ruby](https://repl.it) : 
 
 ```
-bubble = bubble_sort_by(%w[i w y hello hi hey a x]) do |left, right|
+bubble = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left > right
 end
 
