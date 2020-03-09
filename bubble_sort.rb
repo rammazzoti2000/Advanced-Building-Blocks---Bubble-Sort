@@ -3,16 +3,16 @@ require 'rubocop'
 def bubble_sort(array)
   swap = false
 
-  while !swap
+  while !swap 
     swap = true
-    (0...array.length - 1).each.with_index do |item, idx|
+    (0...array.length - 1).each.with_index do |_, idx|
       if array[idx] > array[idx + 1]
         array[idx], array[idx + 1] = array[idx + 1], array[idx]
         swap = false
       end
     end
   end
-  return array
+  array
 end
 
 def bubble_sort_by(array)
@@ -20,14 +20,14 @@ def bubble_sort_by(array)
 
   while !swap
     swap = true
-    (0...array.length - 1).each.with_index do |item, idx|
+    (0...array.length - 1).each.with_index do |_, idx|
       if yield(array[idx], array[idx + 1])
         array[idx], array[idx + 1] = array[idx + 1], array[idx]
         swap = false
       end
     end
   end
-  return array
+  array
 end
 
 bubble = bubble_sort_by(['i', 'a', 'e', 'four', 'five', 'hey', 'hello', 'hi']) do |left, right|
