@@ -1,40 +1,37 @@
 def bubble_sort(array)
-  ##base case
-  return array if array.length <= 1
+  swap = false
 
-  ##block code when size of array is bigger than 1
-  n = array.length
-  for i in 0...n - 1
-    for j in 0...(n - i) - 1
-      if array[j] - array[j + 1] > 0
-        array[j], array[j + 1] = array[j + 1], array[j]
+  while !swap
+    swap = true
+    (0...array.length-1).each.with_index do |item,idx|
+      if array[idx] > array[idx + 1]
+        array[idx], array[idx + 1] = array[idx + 1], array[idx]
+        swap = false
       end
     end
-  end
+end
   return array
 end
-
-print bubble_sort([3, 5, 1, 4, 20])
-puts
 
 def bubble_sort_by(array)
-  ##base case
-  return array if array.length <= 1
+  swap = false
 
-  ##block code when size of array is bigger than 1
-  n = array.length
-  for i in 0...n - 1
-    for j in 0...(n - i) - 1
-      if yield(array[j], array[j + 1] ) > 0
-        array[j], array[j + 1] = array[j + 1], array[j]
+  while !swap
+    swap = true
+    (0...array.length-1).each.with_index do |item,idx|
+      if yield(array[idx], array[idx + 1])
+        array[idx], array[idx + 1] = array[idx + 1], array[idx]
+        swap = false
       end
     end
-  end
+end
   return array
 end
 
- bubble = bubble_sort_by(["hi","hello","hey", "i", "four"]) do |left, right|
-  left.length - right.length
+bubble = bubble_sort_by(["hhjdasghg","cdankd","badnnd", "i", "a", "e", "four","five", "hey" , "hello", "hi"]) do |left, right|
+    left > right
 end
 
+p bubble_sort([1,3,42,54,21,221,31,2,0])
+puts
 p bubble
