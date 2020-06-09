@@ -47,6 +47,7 @@ Advanced-Building-Blocks---Bubble-Sort"><strong>Explore the docs »</strong></a>
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+* [Usage](#usage)
 * [Live Version](#live-version)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -61,8 +62,8 @@ This is the first project of the Microverse Ruby Module
 
 This is also the Assignment_1 of the [Odin project curriculum](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
 
-<!-- ABOUT THE PROJECT -->
-## Installation
+<!-- USAGE -->
+## Usage
 
 To test the code you need to write this at the end and execute it with [ruby](https://repl.it) : 
 
@@ -81,12 +82,17 @@ p bubble
 This project was built using these technologies.
 * Ruby
 * Rubocop
-* VsCode
+* Atom :atom:
 
 <!-- LIVE VERSION -->
 ## Live version
 
 You can see it working [here](https://repl.it/@AlexandruBangau/bubblesort)
+
+<!-- AUTOMATED TEST -->
+## Automated Test
+
+> there are no automated tests for this project yet
 
 <!-- CONTACT -->
 ## Contributors
@@ -102,6 +108,17 @@ You can see it working [here](https://repl.it/@AlexandruBangau/bubblesort)
 - LinkedIn: [Alexandru Bangau](https://www.linkedin.com/in/alexandru-bangau/)
 - GitHub: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - E-mail: bangau.alexandru@gmail.com
+
+<!-- CONTRIBUTING -->
+## :handshake: Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rammazzoti2000/Advanced-Building-Blocks---Bubble-Sort/issues).
+
+## Show your support
+
+Give a :star: if you like this project!
 
 
 <!-- ACKNOWLEDGEMENTS -->
